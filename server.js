@@ -20,19 +20,7 @@ app.use(passport.session());
 
 require("./config/passport-set")(passport);
 
-// const Schema = mongoose.Schema;
 
-
-// const userSchema = new Schema({
-//     username: String,
-//     password: String,
-//     list: [{
-//         title: String,
-//         description: String
-//     }]
-// });
-
-// const User = mongoose.model('User',userSchema);
 
 app.get('/',(req,res)=>{
     if(req.user){
