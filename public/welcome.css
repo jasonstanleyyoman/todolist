@@ -1,0 +1,51 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100vw;
+    
+    
+}
+.container-fluid{
+    max-height: 100vh;
+}
+.middle-container{
+    position: absolute;
+    left: 30vw;
+    top: calc(50vh - 20vw);
+    height: 40vw;
+    width: 40vw;
+    border: 2px black solid;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.welcome{
+    margin-top: 15%;
+}
+.link-container{
+    margin-top: 10%;
+    display: flex;
+}
+.register{
+    margin-left: 40px;
+    float: left;
+}
+.register h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.login{
+    margin-left: 40%;
+    
+}
+.login h3{
+    float: right;
+    font-size: 15px;
+    margin-bottom: 23px
+}
+.link-container .btn{
+    height: 40px;
+    width: 120px;
+}
